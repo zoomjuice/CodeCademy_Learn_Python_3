@@ -45,3 +45,20 @@ print(over_9k([8000, 900, 120, 5000]))
 print(over_9k([8000, 1000]))
 print(over_9k([]))
 print(over_9k([1]))
+
+
+def over_nine_thousand(lst):  # Ferny's solution was better than mine
+    sum_9000 = 0
+    for i in lst:
+        sum_9000 += i
+        if sum_9000 > 9000 or i == lst[-1]:
+            break
+    return sum_9000
+
+
+# Uncomment the line below when your function is done
+print(over_nine_thousand([8000, 900, 120, 5000]))
+print(over_nine_thousand([8000, 1000, 5000]))
+print(over_nine_thousand([8000, 1000]))
+print(over_nine_thousand([]))
+print(over_nine_thousand([1]))

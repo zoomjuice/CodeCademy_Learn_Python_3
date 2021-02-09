@@ -15,3 +15,21 @@ def larger_sum(lst1, lst2):
 
 # Uncomment the line below when your function is done
 print(larger_sum([1, 9, 5], [2, 3, 7]))
+
+# Without cheating
+
+
+def bigger_sum(lst1, lst2):
+    first_sum = 0
+    second_sum = 0
+    for i in lst1:
+        first_sum += i
+    for i in lst2:
+        second_sum += i
+    if first_sum >= second_sum:
+        return lst1
+    else:
+        return lst2
+
+
+print(bigger_sum([1, 9, 5], [2, 3, 7]))

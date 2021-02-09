@@ -1,0 +1,6 @@
+This lesson basically just talks about how strings are lists (technically tuples; they're immutable) and you can use
+list operations on them like indexes and slices.
+
+string = "foobar"
+string[0] is "f"
+string[:3] is "foo"

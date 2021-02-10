@@ -36,3 +36,10 @@ def common_letters(str_one, str_two):
 
 
 print(common_letters('manhattan', 'san francisco'))
+
+
+def same_letters(str_one, str_two):
+    return [letter for letter in str_one if letter in str_two and letter not in locals()['_[1]'].__self__]
+
+
+print(same_letters('manhattan', 'san francisco'))

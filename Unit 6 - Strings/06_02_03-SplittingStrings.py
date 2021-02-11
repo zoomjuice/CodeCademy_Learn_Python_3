@@ -32,7 +32,7 @@ print(line_one_words)
 # 6.2.4
 
 authors = "Audre Lorde,Gabriela Mistral,Jean Toomer,An Qi,Walt Whitman,Shel Silverstein,Carmen Boullosa" \
-          ",Kamala Suraiyya,Langston Hughes,Adrienne Rich,Nikki Giovanni"
+          ",Kamala Suraiyya,Langston Hughes,Edgar Allen Poe,Adrienne Rich,Nikki Giovanni,Samuel Taylor Coleridge"
 
 author_names = authors.split(',')
 print(author_names)

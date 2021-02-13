@@ -7,7 +7,7 @@ Create a function named add_exclamation that has one parameter named word. This 
 
 
 def add_exclamation(string):
-    return string + '!' * max(20 - len(string), 0)
+    return string + '!' * (20 - len(string))
 
 
 # Uncomment these function calls to test your function:

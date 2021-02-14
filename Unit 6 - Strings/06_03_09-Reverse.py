@@ -21,4 +21,35 @@ print(reverse_string(""))
 # should print
 
 # Challenge: Try with list slicing
+
+
+def gnirts_esrever(string):
+    return string[::-1]
+
+
+# Uncomment these function calls to test your  function:
+print(gnirts_esrever("Codecademy"))
+# should print ymedacedoC
+print(gnirts_esrever("Hello world!"))
+# should print !dlrow olleH
+print(gnirts_esrever(""))
+# should print
+
+
 # Challenge: Try without slicing or range()
+
+
+def reverser(string):
+    string_reversed = ''
+    for letter in string:
+        string_reversed = letter + string_reversed
+    return string_reversed
+
+
+# Uncomment these function calls to test your  function:
+print(reverser("Codecademy"))
+# should print ymedacedoC
+print(reverser("Hello world!"))
+# should print !dlrow olleH
+print(reverser(""))
+# should print

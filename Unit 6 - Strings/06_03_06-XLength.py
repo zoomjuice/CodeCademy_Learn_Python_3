@@ -7,8 +7,7 @@ Create a function called x_length_words that takes a string named sentence and a
 
 
 def x_length_words(sentence, word_length):
-    word_list = sentence.split()
-    for word in word_list:
+    for word in sentence.split():
         if len(word) < word_length:
             return False
     return True
@@ -19,3 +18,5 @@ print(x_length_words("i like apples", 2))
 # should print False
 print(x_length_words("he likes apples", 2))
 # should print True
+print(x_length_words("he thinks i like apples", 2))
+# should print False

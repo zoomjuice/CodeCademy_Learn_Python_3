@@ -6,10 +6,12 @@ tarot = {1: "The Magician", 2: "The High Priestess", 3: "The Empress", 4: "The E
          18: "The Moon", 19: "The Sun", 20: "Judgement", 21: "The World", 22: "The Fool"}
 
 times = ['past', 'present', 'future']
-cards = [randint(1, 22) for i in range(3)]
+cards = []
 
-while len(cards) != len(set(cards)):
-    cards = [randint(1, 22) for i in range(3)]
+while len(cards) < 3:
+    rand_int = randint(1, 22)
+    if rand_int not in cards:
+        cards.append(rand_int)
 
 spread = {time: tarot[card] for time, card in zip(times, cards)}
 

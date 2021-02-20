@@ -23,6 +23,7 @@ def play_word(player):
     word = input('Please enter your word: ')
     if word.isalpha():
         player_to_words[player].append(word.lower())
+        update_point_totals()
         return
     else:
         print("{word} is not a valid word.".format(word=word))
@@ -35,9 +36,7 @@ def update_point_totals():
     return
 
 
-# play_word('player1')
-
-update_point_totals()
+play_word('player1')
 
 print(player_to_words)
 print(player_to_points)

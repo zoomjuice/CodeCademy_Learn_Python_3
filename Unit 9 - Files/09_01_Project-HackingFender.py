@@ -22,9 +22,9 @@ slash_null_sig = """
 """
 
 with open('passwords.csv', newline='') as pass_file:
-    pass_dict = csv.DictReader(pass_file)
-    for item in pass_dict:
-        compromised_users.append(item['Username'])
+    pass_dict_list = csv.DictReader(pass_file)
+    for dictionary in pass_dict_list:
+        compromised_users.append(dictionary['Username'])
 
 with open('compromised_users.txt', 'a',) as compromised_users_file:
     for user in compromised_users:

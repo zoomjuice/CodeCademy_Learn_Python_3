@@ -9,7 +9,7 @@
 	It looks like each transaction is separated from the next transaction by a ,, and then each piece of data within a
 	 transaction is separated by the artifact ;,;.
 	If we want to split up daily_sales into a list of individual transactions, we are going to want to split by ,, but
-	 first, we need to replace the ;,; with something without a comma, so we don’t split any transactions themselves.
+	 first, we need to replace the ;,; with something without a comma, so we don't split any transactions themselves.
 	Replace all instances of ;,; in daily_sales with some other character and save the result to daily_sales_replaced.
 
 	3.
@@ -31,7 +31,7 @@
 
 	7.
 	Print daily_transactions_split.
-	How’s it looking?
+	How's it looking?
 
 	8.
 	It looks like each data item has inconsistent whitespace around it. First, define an empty list transactions_clean.
@@ -75,8 +75,8 @@
 # How much thread of any specific color was sold?
 
 	16.
-	Finally, we want to determine how many of each color thread we sold today. Let’s start with a single color, and
-	 then we’ll generalize it.
+	Finally, we want to determine how many of each color thread we sold today. Let's start with a single color, and
+	 then we'll generalize it.
 	First, print out thread_sold and inspect it.
 
 	17.

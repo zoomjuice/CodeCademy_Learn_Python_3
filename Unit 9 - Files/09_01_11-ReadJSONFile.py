@@ -2,7 +2,7 @@
 Python has a built-in library to read and write JSON (JavaScript Object Notation) files. JSON is a file format inspired
 by the programming language JavaScript.
 
-JSON’s format is similar to Python dictionary syntax, so JSON files might be easy to read from a Python developer
+JSON's format is similar to Python dictionary syntax, so JSON files might be easy to read from a Python developer
 standpoint. Python comes with a json package that will help us parse JSON files into dictionaries. Suppose we have a
 JSON file like the following:
 

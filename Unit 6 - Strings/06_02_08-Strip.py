@@ -1,5 +1,5 @@
 """
-When working with strings from real data, the strings often aren’t clean. You’ll find lots of extra whitespace,
+When working with strings from real data, the strings often aren't clean. You'll find lots of extra whitespace,
  unnecessary linebreaks, and rogue tabs.
 
 Python provides a method for cleaning strings: .strip(). Stripping a string removes all whitespace characters from the
@@ -16,7 +16,7 @@ print(featuring.strip('!'))
 # => 'rob thomas       '
 
 By including the argument '!' we are able to strip all of the ! characters from either side of the string. Notice that
- now that we’ve included an argument we are no longer stripping whitespace, we are ONLY stripping the argument.
+ now that we've included an argument we are no longer stripping whitespace, we are ONLY stripping the argument.
 """
 
 love_maybe_lines = ['Always    ', '     in the middle of our bloodiest battles  ', 'you lay down your arms',

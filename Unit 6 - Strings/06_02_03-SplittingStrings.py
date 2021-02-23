@@ -15,7 +15,7 @@ print(man_its_a_hot_one.split())
 .split returned a list with each word in the string. Important to note: if we run .split() on a string with no spaces,
  we will get the same string in return.
 
-When you split a string on a character that it ends with, you’ll end up with an empty string at the end of the list.
+When you split a string on a character that it ends with, you'll end up with an empty string at the end of the list.
 
 print(greatest_guitarist.split('a'))
 # => ['s', 'nt', 'n', ' ']

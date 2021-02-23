@@ -4,7 +4,7 @@ The next string method we will cover is .replace(). Replace takes two arguments 
 
 string_name.replace(old_string, new_string)
 
-Great! Let’s put it in context and look at an example.
+Great! Let's put it in context and look at an example.
 
 with_spaces = "You got the kind of loving that can be so smooth"
 with_underscores = with_spaces.replace(' ', '_')

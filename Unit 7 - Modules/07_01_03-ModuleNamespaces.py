@@ -4,7 +4,7 @@ Notice that when we want to invoke the randint() function we call random.randint
   module from the code in the file doing the importing. Your local namespace, meanwhile, is where your code is run.
 
 Python defaults to naming the namespace after the module being imported, but sometimes this name could be ambiguous or
- lengthy. Sometimes, the module’s name could also conflict with an object you have defined within your local namespace.
+ lengthy. Sometimes, the module's name could also conflict with an object you have defined within your local namespace.
 
 Fortunately, this name can be altered by aliasing using the as keyword:
 

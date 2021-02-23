@@ -2,7 +2,7 @@
 Create a function called username_generator take two inputs, first_name and last_name and returns a username. The
  username should be a slice of the first three letters of the first name and the first four letters of the last name.
  If the first name is less than three letters or the last name is less than four letters it should use the entire name.
- For example, if the employee’s name is Abe Simpson the function should generate the username AbeSimp.
+ For example, if the employee's name is Abe Simpson the function should generate the username AbeSimp.
 """
 
 

@@ -1,8 +1,8 @@
 """
-The "with" keyword invokes something called a context manager for the file that we’re calling open() on. This context
+The "with" keyword invokes something called a context manager for the file that we're calling open() on. This context
 manager takes care of opening the file when we call open() and then closing the file after we leave the indented block.
 
-Since your files exist outside your Python script, we need to tell Python when we’re done with them so that it can
+Since your files exist outside your Python script, we need to tell Python when we're done with them so that it can
 close the connection to that file. Leaving a file connection open unnecessarily can impact other programs on your
 computer that might be trying to access that file.
 

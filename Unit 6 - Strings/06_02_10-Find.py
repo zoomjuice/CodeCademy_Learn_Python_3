@@ -2,7 +2,7 @@
 Another interesting string method is .find(). .find() takes a string as an argument and searches the string it was run
  on for that string. It then returns the first index value where that string is located.
 
-Here’s an example:
+Here's an example:
 
 print('smooth'.find('t'))
 # => '4'

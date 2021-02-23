@@ -9,7 +9,7 @@ For example:
 powers = {[1, 2, 4, 8, 16]: 2, [1, 3, 9, 27, 81]: 3}
 TypeError: unhashable type: 'list'
 
-The word “unhashable” in this context means that this ‘list’ is an object that can be changed.
+The word “unhashable” in this context means that this ‘list' is an object that can be changed.
 
 Dictionaries in Python rely on each key having a hash value, a specific identifier for the key. If the key can
  change, that hash value would not be reliable. So the keys must always be unchangeable, hashable data types, like

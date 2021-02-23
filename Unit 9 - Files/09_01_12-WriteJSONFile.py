@@ -1,12 +1,12 @@
 """
 We can use the json library to translate Python objects to JSON as well. This is especially useful in instances where
-you’re using a Python library to serve web pages, you would also be able to serve JSON. Let’s say we had a Python
+you're using a Python library to serve web pages, you would also be able to serve JSON. Let's say we had a Python
 dictionary we wanted to save as a JSON file:
 
 turn_to_json = { 'eventId': 674189, 'dateTime': '2015-02-12T09:23:17.511Z', 'chocolate': 'Semi-sweet Dark',
                 'isTomatoAFruit': True }
 
-We’d be able to create a JSON file with that information by doing the following:
+We'd be able to create a JSON file with that information by doing the following:
 
 import json
 

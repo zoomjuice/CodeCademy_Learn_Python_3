@@ -5,7 +5,7 @@ There are three string methods that can change the casing of a string. These are
     .upper() returns the string with all uppercase characters.
     .title() returns the string in title case, which means the first letter of each word is capitalized.
 
-It’s important to remember that string methods can only create new strings, they do not change the original string.
+It's important to remember that string methods can only create new strings, they do not change the original string.
 """
 
 poem_title = "spring storm"

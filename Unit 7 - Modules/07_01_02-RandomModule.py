@@ -1,7 +1,7 @@
 """
 One of the most commonly used modules is random, which allows you to generate numbers or select items at random.
 
-With random, we’ll be using more than one piece of the module’s functionality, so the import syntax will look like:
+With random, we'll be using more than one piece of the module's functionality, so the import syntax will look like:
 
 import random
 """

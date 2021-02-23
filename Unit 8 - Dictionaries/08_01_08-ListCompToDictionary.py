@@ -1,5 +1,5 @@
 """
-Let’s say we have two lists that we want to combine into a dictionary, like a list of students and of their heights.
+Let's say we have two lists that we want to combine into a dictionary, like a list of students and of their heights.
 
 names = ['Jenny', 'Alexus', 'Sam', 'Grace']
 heights = [61, 70, 67, 64]

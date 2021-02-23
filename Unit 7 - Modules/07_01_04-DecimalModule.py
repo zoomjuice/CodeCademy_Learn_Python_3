@@ -1,5 +1,5 @@
 """
-Let’s say you are writing software that handles monetary transactions. If you used Python’s built-in floating-point
+Let's say you are writing software that handles monetary transactions. If you used Python's built-in floating-point
  arithmetic to calculate a sum, it would result in a weirdly formatted number.
 
 Usually, modules will provide functions or data types that we can then use to solve a general problem, allowing us

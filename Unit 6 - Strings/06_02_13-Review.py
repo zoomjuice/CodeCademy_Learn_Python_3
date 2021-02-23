@@ -1,5 +1,5 @@
 """
-Over this lesson you’ve learned:
+Over this lesson you've learned:
 
     .upper(), .title(), and .lower() adjust the casing of your string.
     .split() takes a string and creates a list of substrings.

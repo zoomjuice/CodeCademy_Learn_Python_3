@@ -1,5 +1,5 @@
 """
-There’s an even easier way than iterating through the entire string to determine if a character is in a string. We can
+There's an even easier way than iterating through the entire string to determine if a character is in a string. We can
  do this type of check more efficiently using in. in checks if one string is part of another string.
 
 Here is what the syntax of in looks like:

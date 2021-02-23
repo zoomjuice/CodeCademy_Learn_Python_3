@@ -1,5 +1,5 @@
 """
-Now that you’ve learned to break strings apart using .split(), let’s learn to put them back together using .join().
+Now that you've learned to break strings apart using .split(), let's learn to put them back together using .join().
  .join() is essentially the opposite of .split(), it joins a list of strings together with a given delimiter. The
  syntax of .join() is:
 

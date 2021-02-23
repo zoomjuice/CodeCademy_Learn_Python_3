@@ -12,12 +12,12 @@ Python also provides a handy string method for including variables in strings. T
 .format() can be made more legible by including keywords. Previously, you had to make sure that your variables appeared
  as arguments in the same order that you wanted them to appear in the string.
 
-By including keywords in the string and in the arguments, you can remove that ambiguity. Let’s look at an example.
+By including keywords in the string and in the arguments, you can remove that ambiguity. Let's look at an example.
 
 def favorite_song_statement(song, artist):
     return "My favorite song is {song} by {artist}.".format(song=song, artist=artist)
 
-Now it is clear to anyone reading the string what it supposed to return, they don’t even need to look at the arguments
+Now it is clear to anyone reading the string what it supposed to return, they don't even need to look at the arguments
  of .format() in order to get a clear understanding of what is supposed to happen. You can even reverse the order of
  artist and song in the code above and it will work the same way. This makes writing AND reading the code much easier.
 """

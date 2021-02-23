@@ -20,7 +20,7 @@ Notice that:
     Each item consists of a key ("avocado toast") and a value (6).
     Each key: value pair is separated by a comma.
 
-It’s considered good practice to insert a space () after each comma, but our code will still run without the space.
+It's considered good practice to insert a space () after each comma, but our code will still run without the space.
 
 """
 

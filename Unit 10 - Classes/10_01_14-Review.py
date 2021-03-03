@@ -25,7 +25,7 @@ class Student:
             self.grades.append(grade)
 
     def get_average(self):
-        return sum(self.grades) / len(self.grades)
+        return sum(self.grades) // len(self.grades)
 
 
 class Grade:
@@ -34,6 +34,18 @@ class Grade:
 
     def __init__(self, score):
         self.score = score
+
+    def __add__(self, other):
+        return self.score + other
+
+    def __radd__(self, other):
+        return other + self.score
+
+    def __sub__(self, other):
+        return self.score - other
+
+    def __rsub__(self, other):
+        return other - self.score
 
     def is_passing(self):
         return self.score >= self.minimum_passing
@@ -44,5 +56,11 @@ sandro = Student('Sandro Botticelli', 'year 12')
 pieter = Student('Pieter Bruegel the Elder', 'year 8')
 
 grade_1 = Grade(100)
+grade_2 = Grade(44)
+grade_3 = Grade(70)
 
 pieter.add_grade(grade_1)
+pieter.add_grade(grade_2)
+pieter.add_grade(grade_3)
+
+print(pieter.get_average())
